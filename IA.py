@@ -22,7 +22,7 @@ def clasificarMensajes(message):
 
 ###Checks to se if it can read the document criticasCuradas.csv and if the document have Rating and Review
 try:
-    comentarios = pd.read_csv("reviews.csv")
+    comentarios = pd.read_csv("WebScratching-and-AI-Prediction-Moddle/reviews.csv")
 except FileNotFoundError:
     raise FileNotFoundError("El archivo no se encuentra.")
 
